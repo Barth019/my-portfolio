@@ -23,9 +23,19 @@
     <header class="navbar">
         <div class="container nav-container">
 
-            <a href="#" class="logo">BARTHOLOMEW<span>.</span></a>
+            <a href="#home" class="logo">BARTHOLOMEW<span>.</span></a>
 
-            <nav class="nav-links">
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
                 <a href="#home" class="active">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
